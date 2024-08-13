@@ -820,6 +820,21 @@
                         height: 1318.77,
                         id: la.a
                     }))
+                },
+                Na2 = function (e) {
+                    return s.a.createElement("svg", Object.assign({
+                        xmlns: "http://www.w3.org/2000/svg",
+                        fill: "none",
+                        viewBox: "0 0 4033 3025"
+                    }, e), s.a.createElement("rect", {
+                        onMouseEnter: e.onMouseEnter,
+                        onMouseLeave: e.onMouseLeave,
+                        x: -1400,
+                        y: 1200,
+                        width: 2000,
+                        height: 1342.38,
+                        id: Ea.a
+                    }))
                 };
 
             function ya() {
@@ -875,16 +890,26 @@
                     d = null === (e = m.current) || void 0 === e ? void 0 : e.getBoundingClientRect(),
                     u = ((null == d ? void 0 : d.left) + (null == d ? void 0 : d.right)) / 2,
                     h = ((null == d ? void 0 : d.top) + (null == d ? void 0 : d.bottom)) / 2,
-                    g = "TranslateX(0%)",
-                    M = "TranslateY(-50%)",
-                    L = {};
+                    g = "TranslateX(0%)"//"TranslateX(0%)",
+                M = "TranslateY(-50%)"//"TranslateY(0%)",
+                L = {};
                 if ((null == c || null === (a = c.pos) || void 0 === a ? void 0 : a.bottom) > h) {
                     var E, f, p = ((null == c || null === (E = c.pos) || void 0 === E ? void 0 : E.top) + (null == c || null === (f = c.pos) || void 0 === f ? void 0 : f.bottom)) / 2;
-                    L.bottom = (null == d ? void 0 : d.bottom) - p, M = "TranslateY(50%)"
+                    L.bottom =
+                        (null == d ? void 0 : d.bottom) - p
+                        , M = "TranslateY(50%)" //"TranslateY(0%)"
+
                 } else {
                     var b, v;
                     L.top = (null == c || null === (b = c.pos) || void 0 === b ? void 0 : b.top) + (null == c || null === (v = c.pos) || void 0 === v ? void 0 : v.height) / 2 - (null == d ? void 0 : d.top)
-                } (null == c || null === (t = c.pos) || void 0 === t ? void 0 : t.right) < u ? L.left = (null == c || null === (n = c.pos) || void 0 === n ? void 0 : n.right) - (null == d ? void 0 : d.left) : (L.left = (null == c || null === (o = c.pos) || void 0 === o ? void 0 : o.left) - (null == d ? void 0 : d.left), g = "TranslateX(-100%)");
+                } (null == c || null === (t = c.pos) || void 0 === t ? void 0 : t.right) < u ? L.left = (null == c || null === (n = c.pos) || void 0 === n ? void 0 : n.right) - (null == d ? void 0 : d.left) : (L.left = (null == c || null === (o = c.pos) || void 0 === o ? void 0 : o.left) - (null == d ? void 0 : d.left), g = "TranslateX(-100%)"//"TranslateX(-100%)"
+
+                )
+                L.left = L.left - (.9 * L.left)
+                L.bottom = L.bottom
+                L.width = L.width * .25
+                L.height = L.height * .25
+                    ;
                 s.a.useEffect(() => {
                     let slideIndex = 0;
 
@@ -935,24 +960,34 @@
                         src: i2.a
                     }),
                     s.a.createElement("img", {
-                        id: "overlay-img",
+                        id: "chess-img",
                         src: null == c ? void 0 : c.url,
                         style: L
-                    }), s.a.createElement(Na, {
-                        onMouseEnter: function (e) {
-                            e.target.id != (null == c ? void 0 : c.url) && l({
-                                url: e.target.id,
-                                pos: e.target.getBoundingClientRect()
-                            })
-                        },
-                        onMouseLeave: function (e) {
-                            var a = e.target.id;
-                            l((function (e) {
-                                return (null == e ? void 0 : e.url) == a ? {
-                                    url: null
-                                } : e
-                            })), e.target.style.fill = "none"
-                        }
+                        // {  //L
+                        //     position: absolute,
+                        //     left: -1400,
+                        //     top: 1200,
+                        //     transform: g + " " + M
+                        // }
+                    })
+                    , s.a.createElement(Na2, {
+
+                        onMouseEnter:
+                            function (e) {
+                                e.target.id != (null == c ? void 0 : c.url) && l({
+                                    url: e.target.id,
+                                    pos: e.target.getBoundingClientRect()
+                                })
+                            },
+                        onMouseLeave:
+                            function (e) {
+                                var a = e.target.id;
+                                l((function (e) {
+                                    return (null == e ? void 0 : e.url) == a ? {
+                                        url: null
+                                    } : e
+                                })), e.target.style.fill = "none"
+                            }
                     }));
             }
 
