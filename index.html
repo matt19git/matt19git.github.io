@@ -9,12 +9,13 @@
     html {
       font-family: sans-serif;
       -ms-text-size-adjust: 100%;
-      -webkit-text-size-adjust: 100%
+      -webkit-text-size-adjust: 100%;
     }
 
 
     body {
-      margin: 0
+      margin: 0;
+      position: relative;
     }
 
     article,
@@ -1945,12 +1946,13 @@
     }
 
     .main-shelf {
-      width: 50%;
+      width: 100%;
       height: auto;
       position: relative;
       max-width: 115vh;
       margin: auto;
       text-align: left;
+      padding-bottom: 10px;
     }
 
     .main-shelf img {
@@ -2000,9 +2002,12 @@
 
     .desk,
     .shelf {
-      padding-top: 4px
+      padding-top: 10px
     }
 
+    .span {
+      padding-top: 10px
+    }
     .desk {
       padding-top: 100px
     }
@@ -2342,7 +2347,7 @@
                     id="/static/50-f4e82b7b1a6a76d738436c202d2e681c.png"></rect>
                 </svg>
               </div>
-              <span style="padding:0px;width:100%"><a
+              <span id = "mySpan" style="padding:10px !important ;width:50%!important ;display: inline-block; box-sizing: border-box;"><a
                   href="https://www.goodreads.com/user/show/149251509-matthew-sadowski">
                   <!-- -->Goodreads
                 </a></span>

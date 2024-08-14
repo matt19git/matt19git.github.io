@@ -2199,7 +2199,8 @@
           // n.fillRect(0, 0, 1, 1)
           var c = document.createElement("link");
           c.type = "image/x-icon", c.rel = "shortcut icon", c.href = "/favicon.ico", c.id = "mon-favicon";
-          document.getElementsByTagName("head")[0].appendChild(c)
+          document.getElementsByTagName("head")[0].appendChild(c);
+          document.getElementById('mySpan').style.padding = "10px";
           var t = document.getElementById("moon-favicon");
           t && t.remove();
         }
@@ -2274,7 +2275,7 @@
               o.a.createElement("div", {
                 style: {
                   width: "100%",
-                  maxWidth: "50%",  // Limit max width of the shelf
+                  maxWidth: "960px",  // Limit max width of the shelf
                   margin: "0 auto",    // Center the shelf when screen is wider than maxWidth
                   padding: "0 20px",
                   textAlign: "center"    // Optional: Add padding for smaller screens
@@ -2324,6 +2325,7 @@
         )
       }
     },
+
     //   n("A0qh"), e.default = function (t) {
     //     var e = t.children,
     //       n = t.pageContext;
