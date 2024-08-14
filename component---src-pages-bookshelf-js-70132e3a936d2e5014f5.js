@@ -70,7 +70,7 @@
             e.exports = t.p + "static/54-c1a71a345733253cd5a934568973bed5.png"
         },
         KKSa: function (e, a, t) {
-            e.exports = t.p + "static/shelf_small-2d264f21266cc6e8cd6b5f493dee71a4.webp"
+            e.exports = t.p + "static/editedshelf.webp"
         },
         KKSb: function (e, a, t) {
             e.exports = t.p + "static/desk.png"
@@ -944,7 +944,7 @@
                     },
                         s.a.createElement("img", {
                             src: "IMG_2405.JPG",
-                            style: { width: "100%" }
+                            style: { width: "100%", height: "100%" }
                         })),
 
                     s.a.createElement("div", {
@@ -952,7 +952,7 @@
                     },
                         s.a.createElement("img", {
                             src: "IMG_2482.JPG",
-                            style: { width: "100%" }
+                            style: { width: "100%", height: "100%" }
                         }))
                 ),
 
@@ -1042,7 +1042,7 @@
             e.exports = t.p + "static/34-b5ad24b9068b4f1eec70218009090211.png"
         },
         edUf: function (e, a, t) {
-            e.exports = t.p + "static/29-00152e74ad193cabfd446cba0740a1bb.png"
+            e.exports = t.p + "shelteringskycover.png"
         },
         gc8F: function (e, a, t) {
             e.exports = t.p + "static/3-60783eee4d92567dc2d902211c1f61ff.png"

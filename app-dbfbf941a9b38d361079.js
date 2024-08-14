@@ -2262,19 +2262,31 @@
         }, n.home ? "" : o.a.createElement(v, {
           siteTitle: "matthew sadowski"
         }),
-          o.a.createElement("iframe", {
+          o.a.createElement("div", {
             style: {
-              borderRadius: "12px",
-              width: "100%",
-              height: "352px" // Adjust height as needed
-            },
-            src: "https://open.spotify.com/embed/playlist/37i9dQZF1EpvRKCIOhR8bv?utm_source=generator&theme=0",
-            frameBorder: "0",
-            allowfullscreen: true,
-            allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
-            loading:
-              "lazy"
-          }),
+              width: "100%",          // Full width of the parent container
+              height: "80px",        // Example height, adjust as needed
+              position: "relative"    // Relative positioning for the parent div
+            }
+          },
+            o.a.createElement("iframe", {
+              style: {
+                borderRadius: "12px",
+                width: "35%",    // Width of the iframe
+                height: "100%",  // Full height of the parent div
+                border: "none",  // Remove border
+                position: "absolute", // Absolute positioning for the iframe
+                bottom: "0",    // Align the iframe to the bottom of the parent div
+                left: "50%",    // Center the iframe horizontally
+                transform: "translateX(-50%)" // Offset by half of its own width
+              },
+              src: "https://open.spotify.com/embed/playlist/37i9dQZF1EpvRKCIOhR8bv?utm_source=generator&theme=0",
+              frameBorder: "0",
+              allowFullScreen: true,
+              allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
+              loading: "lazy"
+            })
+          ),
 
 
           o.a.createElement("div", {
@@ -2288,7 +2300,7 @@
           }, e)))))
       }
     },
-    
+
     aZJH: function (t, e) {
       function n(t) {
         return !isNaN(parseFloat(t)) && isFinite(t)
