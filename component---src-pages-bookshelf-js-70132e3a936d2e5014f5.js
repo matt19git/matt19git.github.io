@@ -905,10 +905,10 @@
                 } (null == c || null === (t = c.pos) || void 0 === t ? void 0 : t.right) < u ? L.left = (null == c || null === (n = c.pos) || void 0 === n ? void 0 : n.right) - (null == d ? void 0 : d.left) : (L.left = (null == c || null === (o = c.pos) || void 0 === o ? void 0 : o.left) - (null == d ? void 0 : d.left), g = "TranslateX(-100%)"//"TranslateX(-100%)"
 
                 )
-                L.left = L.left - (.9 * L.left)
+                L.left = L.left - (.7 * L.left)
                 L.bottom = L.bottom
-                L.width = L.width * .25
-                L.height = L.height * .25
+                L.height = L.height //* .25
+                L.width = L.height// * .25
                     ;
                 s.a.useEffect(() => {
                     let slideIndex = 0;
