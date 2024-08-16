@@ -1006,7 +1006,7 @@
                 }
                 ), s.a.createElement("span", {
                     style: {
-                        padding: "0px",
+                        padding: "3px",
                         width: "100%"
                     }
                 }, s.a.createElement("a", {

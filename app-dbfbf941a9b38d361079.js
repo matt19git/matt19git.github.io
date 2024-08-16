@@ -2266,6 +2266,7 @@
               minHeight: "100vh", // Full viewport height
               width: "100%", // Full width
               textAlign: "left", // Center text if needed
+              
             }
           },
             o.a.createElement(h.a, {
@@ -2302,7 +2303,7 @@
                       height: "80px",        // Set height as needed
                       border: "none",        // Remove border
                     },
-                    src: "https://open.spotify.com/embed/playlist/37i9dQZF1EpvRKCIOhR8bv?utm_source=generator&theme=0",
+                    src: "https://open.spotify.com/embed/playlist/5ZLyIGnSuDefbR92nUQu94?utm_source=generator",
                     frameBorder: "0",
                     allowFullScreen: true,
                     allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
