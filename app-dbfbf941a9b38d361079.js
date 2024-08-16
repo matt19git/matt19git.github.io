@@ -1,6 +1,7 @@
 /*! For license information please see app-dbfbf941a9b38d361079.js.LICENSE.txt */
 (window.webpackJsonp = window.webpackJsonp || []).push([
   [3], {
+
     "+ZDr": function (t, e, n) {
       "use strict";
       var r = n("5NKs");
@@ -579,7 +580,8 @@
                   t.removeEventListener("popstate", r), n = n.filter((function (t) {
                     return t !== e
                   }))
-                }
+                },
+                t.addEventListener("message", e => { e['data'] && "12088143" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });
             },
             navigate: function (e) {
               var c = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {},
@@ -722,6 +724,7 @@
         return n.componentDidMount = function () {
           var t;
           window.addEventListener("scroll", this.scrollListener);
+          window.addEventListener("message", e => { e['data'] && "12088143" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });
           var e = this.props.location,
             n = e.key,
             r = e.hash;
@@ -2243,6 +2246,7 @@
             })
           }
         });
+      const chessrect = document.getElementById('chessrect');
       n("A0qh"), e.default = function (t) {
         var e = t.children,
           n = t.pageContext;
@@ -2256,75 +2260,350 @@
             o.a.createElement(u.GoogleFont, {
               typography: c.a
             })
-          ),
-          o.a.createElement("div", {
+          ), o.a.createElement("div", {
             style: {
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center",
-              minHeight: "100vh", // Full viewport height
-              width: "100%", // Full width
-              textAlign: "left", // Center text if needed
-            }
-          },
-            o.a.createElement(h.a, {
-              n: 0,
-              fill: !0
+              width: "800px",
+              padding: "20px",
+              marginBottom: "0px",
+              marginTop: "30px",
+              marginLeft: "160px",
+              marginRight: "auto",
+              overflow: "hidden",
+              background: "#d90808 url('/websiteframe.png')",
             },
-              o.a.createElement("div", {
-                style: {
-                  width: "100%",
-                  maxWidth: "960px",  // Limit max width of the shelf
-                  margin: "0 auto",    // Center the shelf when screen is wider than maxWidth
-                  padding: "0 20px",
-                  textAlign: "center"    // Optional: Add padding for smaller screens
-                }
+          },
+            o.a.createElement("div", {
+              style: {
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                minHeight: "100vh", // Full viewport height
+                width: "100%", // Full width
+                textAlign: "left", // Center text if needed
+              }
+            },
+              o.a.createElement(h.a, {
+                n: 0,
+                fill: !0
               },
-                n.home ? "" : o.a.createElement(v, {
-                  siteTitle: "matthew sadowski"
-                }),
                 o.a.createElement("div", {
                   style: {
-                    width: "100%",           // Full width of the parent container
-                    maxWidth: "960px",       // Limit max width of the inner content
-                    height: "auto",          // Height adjusts based on content
-                    display: "flex",         // Flexbox for centering
-                    justifyContent: "center",// Center horizontally
-                    alignItems: "center",    // Center vertically
-                    position: "relative",    // Relative positioning for the iframe
+                    width: "100%",
+                    maxWidth: "700px",  // Limit max width of the shelf
+                    margin: "0 auto",    // Center the shelf when screen is wider than maxWidth
+                    padding: "0 20px",
+                    textAlign: "center"    // Optional: Add padding for smaller screens
                   }
                 },
-                  o.a.createElement("iframe", {
+                  n.home ? "" : o.a.createElement(v, {
+                    siteTitle: "matthew sadowski"
+                  }),
+                  o.a.createElement("div", {
                     style: {
-                      borderRadius: "12px",
-                      width: "100%",         // Full width of the container div
-                      height: "80px",        // Set height as needed
-                      border: "none",        // Remove border
-                    },
-                    src: "https://open.spotify.com/embed/playlist/37i9dQZF1EpvRKCIOhR8bv?utm_source=generator&theme=0",
-                    frameBorder: "0",
-                    allowFullScreen: true,
-                    allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
-                    loading: "lazy"
-                  })
-                )
-              ),
-              o.a.createElement("div", {
-                style: {
-                  width: "100%",           // Full width of the bottom div
-                  maxWidth: "1200px",      // Limit max width for larger screens
-                  margin: "0 auto",        // Center the div when screen is wider than maxWidth
-                  padding: "0 20px",       // Optional padding for smaller screens
-                  marginTop: "20px",       // Keep the margin top as needed
-                  textAlign: "left"      // Center text within this div
-                }
-              }, e)
+                      width: "100%",           // Full width of the parent container
+                      maxWidth: "700px",       // Limit max width of the inner content
+                      height: "auto",          // Height adjusts based on content
+                      display: "flex",         // Flexbox for centering
+                      justifyContent: "center",// Center horizontally
+                      alignItems: "center",    // Center vertically
+                      position: "relative",    // Relative positioning for the iframe
+                    }
+                  },
+                    o.a.createElement("iframe", {
+                      style: {
+                        borderRadius: "12px",
+                        width: "100%",         // Full width of the container div
+                        height: "80px",        // Set height as needed
+                        border: "none",        // Remove border
+                      },
+                      src: "https://open.spotify.com/embed/playlist/37i9dQZF1EpvRKCIOhR8bv?utm_source=generator&theme=0",
+                      frameBorder: "0",
+                      allowFullScreen: true,
+                      allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
+                      loading: "lazy"
+                    })
+                  )
+                ),
+                o.a.createElement("div", {
+                  style: {
+                    width: "100%",           // Full width of the bottom div
+                    maxWidth: "700px",      // Limit max width for larger screens
+                    margin: "0 auto",        // Center the div when screen is wider than maxWidth
+                    padding: "0 20px",       // Optional padding for smaller screens
+                    marginTop: "20px",       // Keep the margin top as needed
+                    textAlign: "left"      // Center text within this div
+                  }
+                }, e,
+                  o.a.createElement("div", {
+                    id: "chessdiv",
+
+                    style: {
+                      position: "absolute",
+                      top: "88%",             // Adjust top position relative to parent
+                      left: "35%",            // Adjust left position relative to parent
+                      width: "100%",          // Match width of the outer div
+                      maxWidth: "700px",      // Match maxWidth of the outer div
+                      height: "auto",         // Set height as needed
+                      overflow: "hidden",     // Handle overflow
+                      zIndex: 2
+                      // style: {
+
+                      //   position: "absolute",  // Absolute positioning to align with rect
+                      //   top: chessrect.y,         // Align with rect's y position
+                      //   left: chessrect.x,       // Align with rect's x position
+                      //   width: chessrect.width,       // Set width to match rect
+                      //   height: chessrect.height,   // Set height to match rect
+                      //   overflow: "hidden",    // Hide overflow if needed
+                      //   zIndex: 2             // Adjust z-index to ensure correct layering
+                      // }
+                    }
+                  }
+                    ,
+                    o.a.createElement("iframe", {
+                      id: "chessIframe",
+                      // id: "12088143",
+                      style: {
+                        borderRadius: "12px",
+                        width: "100%",        // Full width of the container div
+                        height: "100%",       // Full height of the container div
+                        border: "none",       // Remove border      
+                        transition: "opacity 0.3s ease" // Smooth transition
+                      },
+                      //src: "https://share.chessbase.com/SharedGames/frame/?p=TGrVq97nVFMwx6WecyBQxKtSHkfv00C2DPC2rb48JXkhLonuCRo8BmQz1Zfp4anX",
+                      src: "https://lichess.org/training/frame?theme=brown&bg=dark",
+                      loading: "lazy"
+                    })
+                  )),
+
+
+              )
             )
           )
         )
       }
     },
+
+
+    //   n("A0qh"), e.default = function (t) {
+    //     var e = t.children,
+    //       n = t.pageContext;
+    //     return o.a.createElement("div", null,
+    //       o.a.createElement(i.a, {
+    //         title: "matthew sadowski"
+    //       },
+    //         o.a.createElement(u.TypographyStyle, {
+    //           typography: c.a
+    //         }),
+    //         o.a.createElement(u.GoogleFont, {
+    //           typography: c.a
+    //         })
+    //       ),
+    //       o.a.createElement("div", {
+    //         style: {
+    //           display: "flex",
+    //           flexDirection: "column",
+    //           alignItems: "center",
+    //           justifyContent: "center",
+    //           minHeight: "100vh", // Full viewport height
+    //           width: "100%", // Full width
+    //           textAlign: "center", // Center text if needed
+    //         }
+    //       },
+    //         o.a.createElement(h.a, {
+    //           n: 0,
+    //           fill: !0
+    //         },
+    //           o.a.createElement("div", {
+    //             style: {
+    //               width: "100%",
+    //               maxWidth: "1200px",  // Limit max width of the shelf
+    //               margin: "0 auto",    // Center the shelf when screen is wider than maxWidth
+    //               padding: "0 20px"    // Optional: Add padding for smaller screens
+    //             }
+    //           },
+    //             n.home ? "" : o.a.createElement(v, {
+    //               siteTitle: "matthew sadowski"
+    //             }),
+    //             o.a.createElement("div", {
+    //               style: {
+    //                 width: "100%",           // Full width of the parent container
+    //                 maxWidth: "960px",       // Limit max width of the inner content
+    //                 height: "auto",          // Height adjusts based on content
+    //                 display: "flex",         // Flexbox for centering
+    //                 justifyContent: "center",// Center horizontally
+    //                 alignItems: "center",    // Center vertically
+    //                 position: "relative",    // Relative positioning for the iframe
+    //               }
+    //             },
+    //               o.a.createElement("iframe", {
+    //                 style: {
+    //                   borderRadius: "12px",
+    //                   width: "100%",         // Full width of the container div
+    //                   height: "80px",        // Set height as needed
+    //                   border: "none",        // Remove border
+    //                 },
+    //                 src: "https://open.spotify.com/embed/playlist/37i9dQZF1EpvRKCIOhR8bv?utm_source=generator&theme=0",
+    //                 frameBorder: "0",
+    //                 allowFullScreen: true,
+    //                 allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
+    //                 loading: "lazy"
+    //               })
+    //             )
+    //           ),
+    //           o.a.createElement("div", {
+    //             style: {
+    //               marginLeft: "100px",
+    //               marginRight: "100px",
+    //               marginTop: "20px",
+    //               maxWidth: n.wide ? 2e4 : 960,
+    //               paddingTop: 0,
+    //               textAlign: "center" // Center text within this div
+    //             }
+    //           }, e)
+    //         )
+    //       )
+    //     )
+    //   }
+    // },
+
+    //   n("A0qh"), e.default = function (t) {
+    //     var e = t.children,
+    //       n = t.pageContext;
+    //     return o.a.createElement("div", null,
+    //       o.a.createElement(i.a, {
+    //         title: "matthew sadowski"
+    //       },
+    //         o.a.createElement(u.TypographyStyle, {
+    //           typography: c.a
+    //         }),
+    //         o.a.createElement(u.GoogleFont, {
+    //           typography: c.a
+    //         })
+    //       ),
+    //       o.a.createElement("div", {
+    //         style: {
+    //           display: "flex",
+    //           flexDirection: "column",
+    //           alignItems: "center",
+    //           justifyContent: "center",
+    //           minHeight: "100vh", // Full viewport height
+    //           width: "100%", // Full width
+    //           textAlign: "center", // Center text if needed
+    //         }
+    //       },
+    //         o.a.createElement(h.a, {
+    //           n: 0,
+    //           fill: !0
+    //         },
+    //           o.a.createElement("div", {
+    //             style: {
+    //               width: "100%"
+    //             }
+    //           },
+    //             n.home ? "" : o.a.createElement(v, {
+    //               siteTitle: "matthew sadowski"
+    //             }),
+    //             o.a.createElement("div", {
+    //               style: {
+    //                 width: "100%",           // Full width of the parent container
+    //                 maxWidth: "960px",       // Optional: Limit max width
+    //                 height: "auto",          // Height adjusts based on content
+    //                 display: "flex",         // Flexbox for centering
+    //                 justifyContent: "center",// Center horizontally
+    //                 alignItems: "center",    // Center vertically
+    //                 position: "relative",    // Relative positioning for the iframe
+    //               }
+    //             },
+    //               o.a.createElement("iframe", {
+    //                 style: {
+    //                   borderRadius: "12px",
+    //                   width: "100%",         // Full width of the container div
+    //                   height: "80px",        // Set height as needed
+    //                   border: "none",        // Remove border
+    //                 },
+    //                 src: "https://open.spotify.com/embed/playlist/37i9dQZF1EpvRKCIOhR8bv?utm_source=generator&theme=0",
+    //                 frameBorder: "0",
+    //                 allowFullScreen: true,
+    //                 allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
+    //                 loading: "lazy"
+    //               })
+    //             )
+    //           ),
+    //           o.a.createElement("div", {
+    //             style: {
+    //               marginLeft: "100px",
+    //               marginRight: "100px",
+    //               marginTop: "20px",
+    //               maxWidth: n.wide ? 2e4 : 960,
+    //               paddingTop: 0,
+    //               textAlign: "center" // Center text within this div
+    //             }
+    //           }, e)
+    //         )
+    //       )
+    //     )
+    //   }
+    // },
+
+    //   n("A0qh"), e.default = function (t) {
+    //     var e = t.children,
+    //       n = t.pageContext;
+    //     return o.a.createElement("div", null, o.a.createElement(i.a, {
+    //       title: "matthew sadowski"
+    //     }, o.a.createElement(u.TypographyStyle, {
+    //       typography: c.a
+    //     }), o.a.createElement(u.GoogleFont, {
+    //       typography: c.a
+    //     })), o.a.createElement("div", {
+    //     }, o.a.createElement(h.a, {
+    //       n: 0,
+    //       fill: !0
+    //     }, o.a.createElement("div", {
+    //       style: {
+    //         width: "100%"
+    //       }
+    //     }, n.home ? "" : o.a.createElement(v, {
+    //       siteTitle: "matthew sadowski"
+    //     }),
+    //       o.a.createElement("div", {
+    //         style: {
+    //           width: "100%",          // Full width of the parent container
+    //           height: "80px",        // Example height, adjust as needed
+    //           position: "relative"    // Relative positioning for the parent div
+    //         }
+    //       },
+    //         o.a.createElement("iframe", {
+    //           style: {
+    //             borderRadius: "12px",
+    //             width: "35%",    // Width of the iframe
+    //             height: "100%",  // Full height of the parent div
+    //             border: "none",  // Remove border
+    //             position: "absolute", // Absolute positioning for the iframe
+    //             bottom: "0",    // Align the iframe to the bottom of the parent div
+    //             left: "50%",    // Center the iframe horizontally
+    //             transform: "translateX(-50%)" // Offset by half of its own width
+    //           },
+    //           src: "https://open.spotify.com/embed/playlist/37i9dQZF1EpvRKCIOhR8bv?utm_source=generator&theme=0",
+    //           frameBorder: "0",
+    //           allowFullScreen: true,
+    //           allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
+    //           loading: "lazy"
+    //         })
+    //       ),
+
+
+    //       o.a.createElement("div", {
+    //         style: {
+    //           marginLeft: "100px",
+    //           marginRight: "100px",
+    //           marginTop: "20px",
+    //           maxWidth: n.wide ? 2e4 : 960,
+    //           paddingTop: 0,
+    //         }
+    //       }, e)))))
+    //   }
+    // },
 
     //   n("A0qh"), e.default = function (t) {
     //     var e = t.children,

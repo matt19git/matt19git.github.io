@@ -544,6 +544,33 @@
       margin-bottom: 0;
     }
 
+    #chessdiv {
+      position: relative;
+      width: 100%;
+      height: 480px;
+      overflow: hidden;
+    }
+
+    #chessIframe {
+      opacity: 0;
+      /* Hide iframe by default */
+    }
+
+    #chessdiv:hover #chessIframe {
+      opacity: 1;
+      /* Show iframe on hover */
+    }
+    #12088143 {
+      opacity: 0;
+      /* Hide iframe by default */
+    }
+
+    #chessdiv:hover #12088143 {
+      opacity: 1;
+      /* Show iframe on hover */
+    }
+
+
     hr {
       margin-left: 0;
       margin-right: 0;
@@ -1914,6 +1941,17 @@
       }
     }
 
+    .content {
+      width: 800px;
+      padding: 20px 20px 20px 20px;
+      margin-bottom: 0px;
+      margin-top: 30px;
+      margin-left: 160px;
+      margin-right: auto;
+      overflow: hidden;
+      background: #d90808 url("/websiteframe.png");
+    }
+
     .canvas {
       image-rendering: optimizeSpeed;
       image-rendering: -moz-crisp-edges;
@@ -2008,19 +2046,67 @@
     .span {
       padding-top: 10px
     }
+
     .desk {
       padding-top: 100px
     }
 
     .slideshow-container {
-      position: absolute;   /* Allows the element to be positioned absolutely within the main-shelf */
-      top: 5%;             /* Move it down 50% from the top of the parent */
-      left: 53%;            /* Move it right 50% from the left of the parent */
-      transform: translate(-50%, -50%); /* Offset the position by 50% of the element's own width and height */
-      width: 100%;          /* Adjust width as needed */
-      max-width: 21%;   
-      max-height: 1px;  /* Set a max width for the slideshow */
-      z-index: 2;           /* Keep it on top */
+      position: absolute;
+      /* Allows the element to be positioned absolutely within the main-shelf */
+      top: 5%;
+      /* Move it down 50% from the top of the parent */
+      left: 53%;
+      /* Move it right 50% from the left of the parent */
+      transform: translate(-50%, -50%);
+      /* Offset the position by 50% of the element's own width and height */
+      width: 100%;
+      /* Adjust width as needed */
+      max-width: 21%;
+      max-height: 1px;
+      /* Set a max width for the slideshow */
+      z-index: 2;
+      /* Keep it on top */
+    }
+
+    .chessEmbedContainer {
+      position: absolute;
+      /* Allows the element to be positioned absolutely within the main-shelf */
+      top: 5%;
+      /* Move it down 50% from the top of the parent */
+      left: 20%;
+      /* Move it right 50% from the left of the parent */
+      transform: translate(-50%, -50%);
+      /* Offset the position by 50% of the element's own width and height */
+      width: 100%;
+      /* Adjust width as needed */
+
+      height: 100%;
+      max-width: 21%;
+
+      max-height: 21%;
+      z-index: 3;
+      /* Keep it on top */
+    }
+
+    #chessEmbedContainer {
+      position: absolute;
+      /* Allows the element to be positioned absolutely within the main-shelf */
+      top: 5%;
+      /* Move it down 50% from the top of the parent */
+      left: 20%;
+      /* Move it right 50% from the left of the parent */
+      transform: translate(-50%, -50%);
+      /* Offset the position by 50% of the element's own width and height */
+      width: 100%;
+      /* Adjust width as needed */
+
+      height: 100%;
+      max-width: 21%;
+
+      max-height: 21%;
+      z-index: 3;
+      /* Keep it on top */
     }
 
     .slide {
@@ -2141,6 +2227,7 @@
 <body>
   <div id="___gatsby">
     <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
+
       <div>
         <div>
           <div style="width:100%">
@@ -2347,61 +2434,91 @@
                     id="/static/50-f4e82b7b1a6a76d738436c202d2e681c.png"></rect>
                 </svg>
               </div>
-              <span id = "mySpan" style="padding:10px !important ;width:50%!important ;display: inline-block; box-sizing: border-box;"><a
+              <span id="mySpan"
+                style="padding:10px !important ;width:50%!important ;display: inline-block; box-sizing: border-box;"><a
                   href="https://www.goodreads.com/user/show/149251509-matthew-sadowski">
                   <!-- -->Goodreads
                 </a></span>
               <div class="main-shelf">
-                <img src="/static/desk.png" width="400" height="300" />
-                  <div class="slideshow-container">
-                    <div class="mySlides">
-                      <img id="overlay-img" style="top:NaNpx;left:NaNpx;transform:TranslateX(-100%) TranslateY(-50%)", src="IMG_2405.JPG" style="width:100%;height:100%">
-                    </div>
-
-                    <div class="mySlides">
-                      <img id="overlay-img" style="top:NaNpx;left:NaNpx;transform:TranslateX(-100%) TranslateY(-50%)", src="IMG_2482.JPG" style="width:100%;height:100%">
-                    </div>
+                <img src="/static/desk.png" width="100%" height="100%" />
+                <div class="slideshow-container">
+                  <div class="mySlides">
+                    <img id="overlay-img" style="top:NaNpx;left:NaNpx;transform:TranslateX(-100%) TranslateY(-50%)" ,
+                      src="IMG_2405.JPG" style="width:100%;height:100%">
                   </div>
-                  <br>
 
-                  <!-- <img src="IMG_2405.JPG" alt="Image 1 description">
+                  <div class="mySlides">
+                    <img id="overlay-img" style="top:NaNpx;left:NaNpx;transform:TranslateX(-100%) TranslateY(-50%)" ,
+                      src="IMG_2482.JPG" style="width:100%;height:100%">
+                  </div>
+                </div>
+                <div id="chessdiv" style="
+  position: absolute;
+  top: 1200px;              
+  left: -1400px;            
+  width: 2000px;            
+  height: 1342.38px;        
+  overflow: hidden;
+  z-index: 2;
+">
+                  <!-- <iframe id="chessIframe" 
+          style="
+            border-radius: 12px;
+            width: 100%;
+            height: 100%;
+            border: none;
+            transition: opacity 0.3s ease;
+          "
+          src="https://share.chessbase.com/SharedGames/frame/?p=TGrVq97nVFMwx6WecyBQxKtSHkfv00C2DPC2rb48JXkhLonuCRo8BmQz1Zfp4anX"
+          loading="lazy">
+  </iframe> -->
+                  <!-- <iframe id="12088143" allowtransparency="true" frameborder="0" style="width:100%;border:none;"
+                    src="//www.chess.com/emboard?id=12088143"></iframe> -->
+                    <iframe id = "chessIframe" src="https://lichess.org/training/frame?theme=brown&bg=dark" style="aspect-ratio: 10/11;" allowtransparency="true" frameborder="0"></iframe>
+                  <script>window.addEventListener("message", e => { e['data'] && "12088143" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });</script>
+                </div>
+                <br>
+
+                <!-- <img src="IMG_2405.JPG" alt="Image 1 description">
                     <img src="IMG_2482.JPG" alt="Image 2 description"> -->
 
-                  <script>
-                    let slideIndex = 0;
-                    showSlides();
-                    function showSlides() {
-                      let i;
-                      let slides = document.getElementsByClassName("mySlides");                      for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                      }
-                      slideIndex++;
-                      if (slideIndex > slides.length) { slideIndex = 1 }
-                      slides[slideIndex - 1].style.display = "block";
-                      setTimeout(showSlides, 2000); // Change image every 2 seconds
+                <script>
+                  let slideIndex = 0;
+                  showSlides();
+                  function showSlides() {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides"); for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";
                     }
-                  </script>
-                </div>
-                <img id="chess-img" style="top:NaNpx;left:NaNpx;width:auto;height:auto;transform:TranslateX(-100%) TranslateY(-50%)" /><svg
-                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 4033 3025">
-                    <rect x="-1400" y="1200" width="2000" height="1342.38" id="/static/54-c1a71a345733253cd5a934568973bed5.png" style="fill: none;"></rect>
-
-
-                </svg>
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    slides[slideIndex - 1].style.display = "block";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                  }
+                </script>
               </div>
+              <!-- <img id="chess-img"
+                  style="top:NaNpx;left:NaNpx;width:auto;height:auto;transform:TranslateX(-100%) TranslateY(-50%)" /> -->
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 4033 3025">
+                <rect x="-1400" y="1200" width="2000" height="1342.38"
+                  id="/static/54-c1a71a345733253cd5a934568973bed5.png" style="fill: none;"></rect>
+
+
+              </svg>
             </div>
           </div>
-
-
-
-
-
-
-
         </div>
 
+
+
+
+
+
+
       </div>
+
     </div>
+  </div>
   </div>
   <div id="gatsby-announcer"
     style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0"
