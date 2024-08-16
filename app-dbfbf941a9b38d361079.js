@@ -2275,7 +2275,7 @@
               o.a.createElement("div", {
                 style: {
                   width: "100%",
-                  maxWidth: "960px",  // Limit max width of the shelf
+                  maxWidth: "700px",  // Limit max width of the shelf
                   margin: "0 auto",    // Center the shelf when screen is wider than maxWidth
                   padding: "0 20px",
                   textAlign: "center"    // Optional: Add padding for smaller screens
@@ -2287,7 +2287,7 @@
                 o.a.createElement("div", {
                   style: {
                     width: "100%",           // Full width of the parent container
-                    maxWidth: "960px",       // Limit max width of the inner content
+                    maxWidth: "700px",       // Limit max width of the inner content
                     height: "auto",          // Height adjusts based on content
                     display: "flex",         // Flexbox for centering
                     justifyContent: "center",// Center horizontally
@@ -2313,7 +2313,7 @@
               o.a.createElement("div", {
                 style: {
                   width: "100%",           // Full width of the bottom div
-                  maxWidth: "1200px",      // Limit max width for larger screens
+                  maxWidth: "700px",      // Limit max width for larger screens
                   margin: "0 auto",        // Center the div when screen is wider than maxWidth
                   padding: "0 20px",       // Optional padding for smaller screens
                   marginTop: "20px",       // Keep the margin top as needed

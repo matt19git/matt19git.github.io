@@ -825,14 +825,14 @@
                     return s.a.createElement("svg", Object.assign({
                         xmlns: "http://www.w3.org/2000/svg",
                         fill: "none",
-                        viewBox: "0 0 4033 3025"
+                        viewBox: "0 0 3809 1500"
                     }, e), s.a.createElement("rect", {
                         onMouseEnter: e.onMouseEnter,
                         onMouseLeave: e.onMouseLeave,
-                        x: -1400,
-                        y: 1200,
-                        width: 2000,
-                        height: 1342.38,
+                        x: 350,
+                        y: 500,
+                        width: 1000,
+                        height: 700,
                         id: Ea.a
                     }))
                 };
@@ -963,7 +963,11 @@
                         id: "chess-img",
                         src: null == c ? void 0 : c.url,
                         style: L
-                        // {  //L
+                        // {
+                        //     // x: 350,
+                        //     // y: 500,
+                        //     // width: 1000,
+                        //     // height: 700,
                         //     position: absolute,
                         //     left: -1400,
                         //     top: 1200,
