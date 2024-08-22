@@ -928,15 +928,16 @@
                             style: { width: "100%", height: "100%" }
                         }))
                 ),
-                s.a.createElement("a", {
-                    href: "https://www.chess.com/member/matts198826"
-                },
-                s.a.createElement("div", {
-                    className: "chessboard-container"
-                },
-                
-            )
-        ),
+                    s.a.createElement("a", {
+                        href: "https://www.chess.com/member/matts198826",
+                        target:"_blank"
+                    },
+                        s.a.createElement("div", {
+                            className: "chessboard-container"
+                        },
+
+                        )
+                    ),
 
                     s.a.createElement("img", {
                         src: i2.a
@@ -1001,7 +1002,8 @@
                             width: "100%"
                         }
                     }, s.a.createElement("a", {
-                        href: "https://www.goodreads.com/user/show/149251509-matthew-sadowski"
+                        href: "https://www.goodreads.com/user/show/149251509-matthew-sadowski",
+                        target:"_blank"
                     }, " ", "Goodreads ")
 
                     )
