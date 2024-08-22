@@ -2227,7 +2227,7 @@
           padding: "0px  3px",
           position: "relative",
           zIndex: 100,
-          textShadow: "\n  -1px -1px  #f4eeef,\n   1px -1px  #f4eeef,\n   -1px 1px  #f4eeef,\n  1px 1px  #f4eeef,\n  -2px -2px  #f4eeef,\n   2px -2px  #f4eeef,\n   -2px 2px  #f4eeef,\n  2px 2px  #f4eeef"
+          textShadow: "\n  -1px -1px  #f4eeef,\n   1px -1px  #f4eeef,\n   -1px 1px  #f4eeef,\n  1px 1px  #f4eeef,\n  -2px -2px  #f4eeef,\n   2px -2px  #f4eeef,\n   -2px 2px  #f4eeef,\n  2px 2px  #f4eeef",
         },
         v = f()({
           displayName: "header",
@@ -2240,7 +2240,16 @@
           render: function () {
             return "undefined" != typeof window && (window.l = 9), Object(d.a)(), o.a.createElement("div", {
               className: "header"
-            })
+            },
+              o.a.createElement(l.a, {
+                to: "/blog/",
+                style: m
+              }, "Writing"),
+              o.a.createElement(l.a, {
+                to: "/",
+                style: m
+              }, "Bookshelf")
+            )
           }
         });
       n("A0qh"), e.default = function (t) {
@@ -2266,13 +2275,15 @@
               minHeight: "100vh", // Full viewport height
               width: "100%", // Full width
               textAlign: "left", // Center text if needed
-              
+
             }
           },
             o.a.createElement(h.a, {
               n: 0,
               fill: !0
-            },
+            },n.home ? "" : o.a.createElement(v, {
+              siteTitle: "matthew sadowski"
+            }),
               o.a.createElement("div", {
                 style: {
                   width: "100%",
@@ -2282,9 +2293,6 @@
                   textAlign: "center"    // Optional: Add padding for smaller screens
                 }
               },
-                n.home ? "" : o.a.createElement(v, {
-                  siteTitle: "matthew sadowski"
-                }),
                 o.a.createElement("div", {
                   style: {
                     width: "100%",           // Full width of the parent container
