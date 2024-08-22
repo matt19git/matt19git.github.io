@@ -73,7 +73,7 @@
             e.exports = t.p + "static/editedshelf.webp"
         },
         KKSb: function (e, a, t) {
-            e.exports = t.p + "static/desk.png"
+            e.exports = t.p + "static/desk-1.png"
         },
         Ml1u: function (e, a, t) {
             e.exports = t.p + "static/23-dade77ddab05be89db9b9df36e3856bf.png"
@@ -911,39 +911,54 @@
                 },
                     s.a.createElement("div", {
                         className: "mySlides fade"
+                        ,
+                        style: {}
                     },
                         s.a.createElement("img", {
-                            src: "IMG_2405.JPG",
+                            src: "IMG_2405.png",
                             style: { width: "100%", height: "100%" }
                         })),
 
                     s.a.createElement("div", {
-                        className: "mySlides fade"
+                        className: "mySlides fade",
+                        style: {}
                     },
                         s.a.createElement("img", {
-                            src: "IMG_2482.JPG",
+                            src: "IMG_2482.png",
                             style: { width: "100%", height: "100%" }
                         }))
                 ),
+                s.a.createElement("a", {
+                    href: "https://www.chess.com/member/matts198826"
+                },
+                s.a.createElement("div", {
+                    className: "chessboard-container"
+                },
+                
+            )
+        ),
 
                     s.a.createElement("img", {
                         src: i2.a
-                    }),
-                    s.a.createElement("img", {
-                        id: "chess-img",
-                        src: null == c ? void 0 : c.url,
-                        style: L
-                        // {
-                        //     // x: 350,
-                        //     // y: 500,
-                        //     // width: 1000,
-                        //     // height: 700,
-                        //     position: absolute,
-                        //     left: -1400,
-                        //     top: 1200,
-                        //     transform: g + " " + M
-                        // }
                     })
+                    //s.a.createElement("a", {
+                    //     href: "https://www.goodreads.com/user/show/149251509-matthew-sadowski"
+                    // }, 
+                    // s.a.createElement("img", {
+                    //     id: "chess-img",
+                    //     src: null == c ? void 0 : c.url,
+                    //     style: L
+                    //     // {
+                    //     //     // x: 350,
+                    //     //     // y: 500,
+                    //     //     // width: 1000,
+                    //     //     // height: 700,
+                    //     //     position: absolute,
+                    //     //     left: -1400,
+                    //     //     top: 1200,
+                    //     //     transform: g + " " + M
+                    //     // }
+                    // }))
                     , s.a.createElement(Na2, {
 
                         onMouseEnter:
@@ -994,10 +1009,13 @@
 
                         s.a.createElement(ya2, null)
                     ),
-                    s.a.createElement("div", {
-                        className: "right-div"
-                    }, "Content for the right div")
+                    // s.a.createElement("div", {
+                    //     className: "right-div"
+                    // }, "Content for the right div")
                 )
+                // s.a.createElement("div", {
+                //         className: "right-div"
+                //     }, "Content for the right div")
 
             }
         },

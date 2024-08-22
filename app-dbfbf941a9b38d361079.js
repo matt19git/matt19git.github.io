@@ -2198,7 +2198,7 @@
           // n.fillStyle = "white"
           // n.fillRect(0, 0, 1, 1)
           var c = document.createElement("link");
-          c.type = "image/x-icon", c.rel = "shortcut icon", c.href = "/favicon.ico", c.id = "mon-favicon";
+          c.type = "image/x-icon", c.rel = "shortcut icon", c.href = "/favicon2.ico", c.id = "mon-favicon";
           document.getElementsByTagName("head")[0].appendChild(c);
           document.getElementById('mySpan').style.padding = "10px";
           var t = document.getElementById("moon-favicon");
