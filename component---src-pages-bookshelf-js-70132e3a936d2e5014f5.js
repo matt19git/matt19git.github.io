@@ -906,66 +906,66 @@
                             style: { width: "100%", height: "100%" }
                         }))
 
-                        ,
+                    ,
 
-                        s.a.createElement("div", {
-                            className: "mySlides fade",
-                            style: {}
-                        },
-                            s.a.createElement("img", {
-                                src: "portugal2.png",
-                                style: { width: "100%", height: "100%" }
-                            }))
-                            ,
+                    s.a.createElement("div", {
+                        className: "mySlides fade",
+                        style: {}
+                    },
+                        s.a.createElement("img", {
+                            src: "portugal2.png",
+                            style: { width: "100%", height: "100%" }
+                        }))
+                    ,
 
-                            s.a.createElement("div", {
-                                className: "mySlides fade",
-                                style: {}
-                            },
-                                s.a.createElement("img", {
-                                    src: "nice.png",
-                                    style: { width: "100%", height: "100%" }
-                                }))
-                                ,
+                    s.a.createElement("div", {
+                        className: "mySlides fade",
+                        style: {}
+                    },
+                        s.a.createElement("img", {
+                            src: "nice.png",
+                            style: { width: "100%", height: "100%" }
+                        }))
+                    ,
 
-                                s.a.createElement("div", {
-                                    className: "mySlides fade",
-                                    style: {}
-                                },
-                                    s.a.createElement("img", {
-                                        src: "switzerland.png",
-                                        style: { width: "100%", height: "100%" }
-                                    }))
-                                    ,
+                    s.a.createElement("div", {
+                        className: "mySlides fade",
+                        style: {}
+                    },
+                        s.a.createElement("img", {
+                            src: "switzerland.png",
+                            style: { width: "100%", height: "100%" }
+                        }))
+                    ,
 
-                                    s.a.createElement("div", {
-                                        className: "mySlides fade",
-                                        style: {}
-                                    },
-                                        s.a.createElement("img", {
-                                            src: "skydiving.png",
-                                            style: { width: "100%", height: "100%" }
-                                        }))
-                                        ,
+                    s.a.createElement("div", {
+                        className: "mySlides fade",
+                        style: {}
+                    },
+                        s.a.createElement("img", {
+                            src: "skydiving.png",
+                            style: { width: "100%", height: "100%" }
+                        }))
+                    ,
 
-                                        s.a.createElement("div", {
-                                            className: "mySlides fade",
-                                            style: {}
-                                        },
-                                            s.a.createElement("img", {
-                                                src: "tennis.png",
-                                                style: { width: "100%", height: "100%" }
-                                            }))
-                                            ,
+                    s.a.createElement("div", {
+                        className: "mySlides fade",
+                        style: {}
+                    },
+                        s.a.createElement("img", {
+                            src: "tennis.png",
+                            style: { width: "100%", height: "100%" }
+                        }))
+                    ,
 
-                                            s.a.createElement("div", {
-                                                className: "mySlides fade",
-                                                style: {}
-                                            },
-                                                s.a.createElement("img", {
-                                                    src: "bike.png",
-                                                    style: { width: "100%", height: "100%" }
-                                                }))
+                    s.a.createElement("div", {
+                        className: "mySlides fade",
+                        style: {}
+                    },
+                        s.a.createElement("img", {
+                            src: "bike.png",
+                            style: { width: "100%", height: "100%" }
+                        }))
                 ),
                     s.a.createElement("a", {
                         href: "https://www.chess.com/member/matts198826",
@@ -1043,7 +1043,22 @@
                     }, s.a.createElement("a", {
                         href: "https://www.goodreads.com/user/show/149251509-matthew-sadowski",
                         target: "_blank"
-                    }, " ", "Goodreads ")
+                    }, "", "Goodreads Profile"),
+                        s.a.createElement("p", {
+                            style: {
+                                marginTop: "20px", // Adjust margin as needed
+                                color: "#333", // Text color
+                                fontSize: "8px" // Adjust font size as needed
+                            }
+                        }, "(interact with the books and chessboard)"),
+                        s.a.createElement("p", {
+                            style: {
+                                marginTop: "20px", // Adjust margin as needed
+                                color: "#333", // Text color
+                                fontSize: "8px" // Adjust font size as needed
+                            }
+                        }, "(loads slowly, smoother on laptop)")
+
 
                     )
                         ,
