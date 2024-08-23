@@ -1057,7 +1057,7 @@
                                 color: "#333", // Text color
                                 fontSize: "8px" // Adjust font size as needed
                             }
-                        }, "(loads slowly, smoother on laptop)")
+                        }, "(loads slowly. it smoother on laptop)")
 
 
                     )
