@@ -2240,15 +2240,7 @@
           render: function () {
             return "undefined" != typeof window && (window.l = 9), Object(d.a)(), o.a.createElement("div", {
               className: "header"
-            },
-              o.a.createElement(l.a, {
-                to: "/blog/",
-                style: m
-              }, "Writing"),
-              o.a.createElement(l.a, {
-                to: "/",
-                style: m
-              }, "Bookshelf")
+            }
             )
           }
         });

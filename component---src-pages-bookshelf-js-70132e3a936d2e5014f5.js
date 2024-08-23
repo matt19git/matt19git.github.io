@@ -4,73 +4,76 @@
             e.exports = t.p + "static/47-d043279cb434d08e86cfae089b6a3175.png"
         },
         "+zAv": function (e, a, t) {
-            e.exports = t.p + "static/11-2bb98f8b24a111b23ca5a8c31faa7a9e.png"
+            e.exports = t.p + "static/thetrial.png"
         },
         "/CrK": function (e, a, t) {
             e.exports = t.p + "static/51-0f2df59d00c512de2dc1e8e62e78873d.png"
         },
         "/PgY": function (e, a, t) {
-            e.exports = t.p + "static/38-85a0ff0dc52f68f32300982e1a9a16ae.png"
+            e.exports = t.p + "static/hamlet.png"
         },
         "1FFf": function (e, a, t) {
-            e.exports = t.p + "static/27-8e38fedad35593ef9f8b26574c8ad6f8.png"
+            e.exports = t.p + "static/thepictureofdoriangray.png"
         },
         "2NWp": function (e, a, t) {
             e.exports = t.p + "static/22-caef992802302f7d219074340d7d6597.png"
         },
         "3Ysn": function (e, a, t) {
-            e.exports = t.p + "static/39-fa843f8d4934cc5ddd2d6cdc12376982.png"
+            e.exports = t.p + "static/playitasitlays.png"
         },
         "3rdH": function (e, a, t) {
-            e.exports = t.p + "static/32-7b001fcf724c4fa60589e9eafa614d9e.png"
+            e.exports = t.p + "static/letterstoayoungpoet.png"
         },
         "4O48": function (e, a, t) {
-            e.exports = t.p + "static/52-9068f037fe64217d03a9b128cd544bf3.png"
+            e.exports = t.p + "static/ubik.png"
         },
         "5HI6": function (e, a, t) {
-            e.exports = t.p + "static/18-b7cf9230f2416a232579beb9f8365e29.png"
+            e.exports = t.p + "static/wittgensteinsmistress.png"
         },
         "6ROU": function (e, a, t) {
-            e.exports = t.p + "static/25-988c8e12060e6492762a902ebac9c72a.png"
+            e.exports = t.p + "static/flowersforalgernon.png"
         },
         "6aLc": function (e, a, t) {
-            e.exports = t.p + "static/41-53020fe7bd58cae8db4f1a397f6cfb37.png"
+            e.exports = t.p + "static/thedayofthelocust.png"
         },
         AdGX: function (e, a, t) {
-            e.exports = t.p + "static/26-353c1bd99700bedbb2acf1fae9b487e7.png"
+            e.exports = t.p + "static/whitenoise.png"
         },
         AyFv: function (e, a, t) {
-            e.exports = t.p + "static/16-ea37f3f448c17e76621b51ce7a1ce769.png"
+            e.exports = t.p + "static/mycousinmygastroenterologist.png"
         },
         BkY8: function (e, a, t) {
             e.exports = t.p + "static/46-45488168e4d19e864678418dbf03e521.png"
         },
         "C+Yf": function (e, a, t) {
-            e.exports = t.p + "static/5-606a8ea696abe3113f42deb2d0b0bfb3.png"
+            e.exports = t.p + "static/fiasco.png"
         },
         EIrb: function (e, a, t) {
             e.exports = t.p + "static/tao_te_ching-4eb70e1938f08a292df9580368754294.png"
         },
         EPhf: function (e, a, t) {
-            e.exports = t.p + "static/1-af802b199264af67a31ae758ec52c2b2.png"
+            e.exports = t.p + "static/adistantepisode.png"
         },
         GMs1: function (e, a, t) {
-            e.exports = t.p + "static/14-4ada3e8f65fe1cc23ce08fe778878dc5.png"
+            e.exports = t.p + "static/siddartha.png"
         },
         GQyj: function (e, a, t) {
-            e.exports = t.p + "static/12-350598a7f6931bef0eef1343256eed23.png"
+            e.exports = t.p + "static/thenamesake.png"
         },
         GctI: function (e, a, t) {
-            e.exports = t.p + "static/42-ed3f81d28971a7269d36cf50dd7e80b4.png"
+            e.exports = t.p + "static/wittgenstein'snephew.png"
         },
         Hdx9: function (e, a, t) {
-            e.exports = t.p + "static/19-b13ac1b4e2645f729a75810188a3c35b.png"
+            e.exports = t.p + "static/thefall.png"
         },
         IiDn: function (e, a, t) {
-            e.exports = t.p + "static/54-c1a71a345733253cd5a934568973bed5.png"
+            e.exports = t.p + "static/golfdreams.png"
+        },
+        IiDn2: function (e, a, t) {
+            e.exports = t.p + "static/therecognitions.png"
         },
         KKSa: function (e, a, t) {
-            e.exports = t.p + "static/editedshelf.webp"
+            e.exports = t.p + "static/editedshelf-1-1.png"
         },
         KKSb: function (e, a, t) {
             e.exports = t.p + "static/desk-1.png"
@@ -79,20 +82,20 @@
             e.exports = t.p + "static/23-dade77ddab05be89db9b9df36e3856bf.png"
         },
         OKro: function (e, a, t) {
-            e.exports = t.p + "static/33-792798b4c1f1554dfd377ec129f6ffe6.png"
+            e.exports = t.p + "static/bignateinaclassbyhimself.png"
         },
         Odoy: function (e, a, t) {
-            e.exports = t.p + "static/43-32710452e04ff30b2c7d29678180bfd2.png"
+            e.exports = t.p + "static/asupposedlyfunthingi'llneverdoagain.png"
         },
         PBXW: function (e, a, t) { },
         PUo7: function (e, a, t) {
-            e.exports = t.p + "static/55-11b95c0546c27aaa25bbb87d4457f587.png"
+            e.exports = t.p + "static/aclockworkorange.png"
         },
         T3yo: function (e, a, t) {
-            e.exports = t.p + "static/30-eb09f3a9798270590b59fbac62e0fd48.png"
+            e.exports = t.p + "static/travelswithcharley.png"
         },
         UDTW: function (e, a, t) {
-            e.exports = t.p + "static/49-9665413ac80ccca0046ac9c1db1a4836.png"
+            e.exports = t.p + "static/thedeathofivanilych.png"
         },
         UXb8: function (e, a, t) {
             "use strict";
@@ -232,6 +235,8 @@
                 Ma = t.n(ga),
                 La = t("IiDn"),
                 Ea = t.n(La),
+                La2 = t("IiDn2"),
+                Ea2 = t.n(La2),
                 fa = t("PUo7"),
                 pa = t.n(fa),
                 ba = t("V/pM"),
@@ -290,6 +295,7 @@
                     n[ha.a] = "Parable of the Sower, Octavia Butler",
                     n[Ma.a] = "Well Played Game, Bernard De Koven",
                     n[Ea.a] = "The Earthsea Trilogy, Ursula K. Le Guin",
+                    n[Ea2.a] = "The Recognitions, William Gaddis",
                     n[pa.a] = "Moby Dick, Herman Melville",
                     n[va.a] = "Dream Work, Mary Oliver",
                     n),
@@ -301,9 +307,17 @@
                     }, e), s.a.createElement("rect", {
                         onMouseEnter: e.onMouseEnter,
                         onMouseLeave: e.onMouseLeave,
-                        x: 75.6635,
+                        x: 25.6635,
                         y: 19.7271,
-                        width: 413.627,
+                        width: 293.627,
+                        height: 1342.38,
+                        id: Ea2.a
+                    }), s.a.createElement("rect", {
+                        onMouseEnter: e.onMouseEnter,
+                        onMouseLeave: e.onMouseLeave,
+                        x: 320.6635,
+                        y: 19.7271,
+                        width: 197.627,
                         height: 1342.38,
                         id: Ea.a
                     }), s.a.createElement("rect", {
@@ -507,9 +521,9 @@
                     }), s.a.createElement("rect", {
                         onMouseEnter: e.onMouseEnter,
                         onMouseLeave: e.onMouseLeave,
-                        x: -1.95948,
-                        y: 2.04634,
-                        width: 90.6364,
+                        x: -5.95948,
+                        y: 3.04634,
+                        width: 140.6364,
                         height: 1520.3,
                         transform: "matrix(0.0199857 0.9998 -0.999727 0.0233709 3934.63 2808.78)",
                         id: ve.a
@@ -552,39 +566,21 @@
                     }), s.a.createElement("rect", {
                         onMouseEnter: e.onMouseEnter,
                         onMouseLeave: e.onMouseLeave,
-                        x: -1.95948,
-                        y: 2.04634,
-                        width: 79.1448,
-                        height: 1324.79,
+                        x: -60.95948,
+                        y: -100.04634,
+                        width: 130.1448,
+                        height: 1424.79,
                         transform: "matrix(0.0199857 0.9998 -0.999727 0.0233709 3780 2243.63)",
                         id: de.a
                     }), s.a.createElement("rect", {
                         onMouseEnter: e.onMouseEnter,
                         onMouseLeave: e.onMouseLeave,
-                        x: -1.95948,
-                        y: 2.04634,
-                        width: 79.0247,
-                        height: 1148.17,
+                        x: -300.95948,
+                        y: -100.04634,
+                        width: 400.0247,
+                        height: 1224.17,
                         transform: "matrix(0.0199857 0.9998 -0.999727 0.0233709 3610.39 2106)",
                         id: se.a
-                    }), s.a.createElement("rect", {
-                        onMouseEnter: e.onMouseEnter,
-                        onMouseLeave: e.onMouseLeave,
-                        x: -1.95948,
-                        y: 2.04634,
-                        width: 20.5087,
-                        height: 1439.4,
-                        transform: "matrix(0.0199857 0.9998 -0.999727 0.0233709 3902.05 2214.51)",
-                        id: le.a
-                    }), s.a.createElement("rect", {
-                        onMouseEnter: e.onMouseEnter,
-                        onMouseLeave: e.onMouseLeave,
-                        x: -1.95948,
-                        y: 2.04634,
-                        width: 20.5087,
-                        height: 1425.22,
-                        transform: "matrix(0.0199857 0.9998 -0.999727 0.0233709 3889.87 2185.73)",
-                        id: ie.a
                     }), s.a.createElement("rect", {
                         onMouseEnter: e.onMouseEnter,
                         onMouseLeave: e.onMouseLeave,
@@ -700,15 +696,6 @@
                         height: 1268.23,
                         transform: "rotate(1 2421.08 87.2721)",
                         id: qe.a
-                    }), s.a.createElement("rect", {
-                        onMouseEnter: e.onMouseEnter,
-                        onMouseLeave: e.onMouseLeave,
-                        x: 3200.78,
-                        y: 97.2472,
-                        width: 69.3272,
-                        height: 697.799,
-                        transform: "rotate(87.5004 3200.78 97.2472)",
-                        id: sa.a
                     }), s.a.createElement("rect", {
                         onMouseEnter: e.onMouseEnter,
                         onMouseLeave: e.onMouseLeave,
@@ -909,28 +896,80 @@
                 }, s.a.createElement("div", {
                     className: "slideshow-container"
                 },
-                    s.a.createElement("div", {
-                        className: "mySlides fade"
-                        ,
-                        style: {}
-                    },
-                        s.a.createElement("img", {
-                            src: "IMG_2405.png",
-                            style: { width: "100%", height: "100%" }
-                        })),
 
                     s.a.createElement("div", {
                         className: "mySlides fade",
                         style: {}
                     },
                         s.a.createElement("img", {
-                            src: "IMG_2482.png",
+                            src: "portugal.png",
                             style: { width: "100%", height: "100%" }
                         }))
+
+                        ,
+
+                        s.a.createElement("div", {
+                            className: "mySlides fade",
+                            style: {}
+                        },
+                            s.a.createElement("img", {
+                                src: "portugal2.png",
+                                style: { width: "100%", height: "100%" }
+                            }))
+                            ,
+
+                            s.a.createElement("div", {
+                                className: "mySlides fade",
+                                style: {}
+                            },
+                                s.a.createElement("img", {
+                                    src: "nice.png",
+                                    style: { width: "100%", height: "100%" }
+                                }))
+                                ,
+
+                                s.a.createElement("div", {
+                                    className: "mySlides fade",
+                                    style: {}
+                                },
+                                    s.a.createElement("img", {
+                                        src: "switzerland.png",
+                                        style: { width: "100%", height: "100%" }
+                                    }))
+                                    ,
+
+                                    s.a.createElement("div", {
+                                        className: "mySlides fade",
+                                        style: {}
+                                    },
+                                        s.a.createElement("img", {
+                                            src: "skydiving.png",
+                                            style: { width: "100%", height: "100%" }
+                                        }))
+                                        ,
+
+                                        s.a.createElement("div", {
+                                            className: "mySlides fade",
+                                            style: {}
+                                        },
+                                            s.a.createElement("img", {
+                                                src: "tennis.png",
+                                                style: { width: "100%", height: "100%" }
+                                            }))
+                                            ,
+
+                                            s.a.createElement("div", {
+                                                className: "mySlides fade",
+                                                style: {}
+                                            },
+                                                s.a.createElement("img", {
+                                                    src: "bike.png",
+                                                    style: { width: "100%", height: "100%" }
+                                                }))
                 ),
                     s.a.createElement("a", {
                         href: "https://www.chess.com/member/matts198826",
-                        target:"_blank"
+                        target: "_blank"
                     },
                         s.a.createElement("div", {
                             className: "chessboard-container"
@@ -1003,7 +1042,7 @@
                         }
                     }, s.a.createElement("a", {
                         href: "https://www.goodreads.com/user/show/149251509-matthew-sadowski",
-                        target:"_blank"
+                        target: "_blank"
                     }, " ", "Goodreads ")
 
                     )
@@ -1022,19 +1061,19 @@
             }
         },
         "V/pM": function (e, a, t) {
-            e.exports = t.p + "static/56-780e28d667973f5089a79a3c8dd77a62.png"
+            e.exports = t.p + "static/chessstory.png"
         },
         Wftt: function (e, a, t) {
-            e.exports = t.p + "static/2-a2c5c52a969b94ddf4b7a7ebd3ce35da.png"
+            e.exports = t.p + "static/beendown.png"
         },
         Zl9z: function (e, a, t) {
             e.exports = t.p + "static/weaving-71caec913fb9c36bee9e9c294f9d2eeb.webp"
         },
         aIvw: function (e, a, t) {
-            e.exports = t.p + "static/53-211a334caf208afd198829cad5d79bd1.png"
+            e.exports = t.p + "static/nielslyhne.png"
         },
         arV4: function (e, a, t) {
-            e.exports = t.p + "static/7-b94f03f3f232d2b5580f040cc5b58e78.png"
+            e.exports = t.p + "static/letitcomedown.png"
         },
         dCk2: function (e, a, t) {
             e.exports = t.p + "static/connie-d7265812869732497199814d245d58d7.jpeg"
@@ -1043,79 +1082,79 @@
             e.exports = t.p + "static/water-d5f5b6956c48f8a4e234c4c19ca14f0e.jpg"
         },
         dpWB: function (e, a, t) {
-            e.exports = t.p + "static/50-f4e82b7b1a6a76d738436c202d2e681c.png"
+            e.exports = t.p + "static/themetamorphosis.png"
         },
         drBJ: function (e, a, t) {
-            e.exports = t.p + "static/34-b5ad24b9068b4f1eec70218009090211.png"
+            e.exports = t.p + "static/thecatcherintherye.png"
         },
         edUf: function (e, a, t) {
             e.exports = t.p + "shelteringskycover.png"
         },
         gc8F: function (e, a, t) {
-            e.exports = t.p + "static/3-60783eee4d92567dc2d902211c1f61ff.png"
+            e.exports = t.p + "static/theidiot.png"
         },
         h4WW: function (e, a, t) {
-            e.exports = t.p + "static/24-16f668b3ea4ca71878efcefcc15904a0.png"
+            e.exports = t.p + "static/themanwhowasthursday.png"
         },
         hVpp: function (e, a, t) {
-            e.exports = t.p + "static/31-8ac9dca04a41a90cb474b1172cc3435e.png"
+            e.exports = t.p + "static/theroad.png"
         },
         hVzG: function (e, a, t) {
-            e.exports = t.p + "static/37-94bb102f66e0871a2b8f2b7143434d65.png"
+            e.exports = t.p + "static/palefire.png"
         },
         i5yB: function (e, a, t) {
-            e.exports = t.p + "static/6-2de1f685af26b40a61397b87a717bc7e.png"
+            e.exports = t.p + "static/thecryingoflot49.png"
         },
         iHCP: function (e, a, t) {
-            e.exports = t.p + "static/13-f367e77419070e31fda4edc850305c3a.png"
+            e.exports = t.p + "static/theprophet.png"
         },
         itsj: function (e, a, t) {
-            e.exports = t.p + "static/15-10966ef1993e034abe982079713489f8.png"
+            e.exports = t.p + "static/theunbearablelightnessofbeing.png"
         },
         joJ0: function (e, a, t) {
-            e.exports = t.p + "static/17-d185344a02df4fe0873dd66c6ea748e9.png"
+            e.exports = t.p + "static/calvinandhobbes.png"
         },
         kdU0: function (e, a, t) {
-            e.exports = t.p + "static/35-7c2101828bcccd7d5c0cb318c176d86d.png"
+            e.exports = t.p + "static/slaughterhouse-five.png"
         },
         lWVi: function (e, a, t) {
-            e.exports = t.p + "static/10-0934976cb280725469a4c093c74bfe90.png"
+            e.exports = t.p + "static/thesimpsons.png"
         },
         lyYz: function (e, a, t) {
-            e.exports = t.p + "static/45-0f6bbb82bec7aa1fa5dfd7529c83e16c.png"
+            e.exports = t.p + "static/considerthelobster.png"
         },
         mPLV: function (e, a, t) {
-            e.exports = t.p + "static/40-51797952a0c9f68455e6431852dd8d07.png"
+            e.exports = t.p + "static/slowdays,fastcompany.png"
         },
         nlLN: function (e, a, t) {
             e.exports = t.p + "static/48-74ad240dece1668550d26f52335b2d7c.png"
         },
         pJ8i: function (e, a, t) {
-            e.exports = t.p + "static/4-8166ad59941d52b17a01299e2dd35b06.png"
+            e.exports = t.p + "static/rosencrantzandguildensternaredead.png"
         },
         r3ca: function (e, a, t) {
-            e.exports = t.p + "static/8-0e97a00ef655d46857811a2b7a24d5dc.png"
+            e.exports = t.p + "static/infinitejest.png"
         },
         rpKv: function (e, a, t) {
-            e.exports = t.p + "static/9-28a5f32cf553f2d1e69da2975737f1c2.png"
+            e.exports = t.p + "static/notesfromunderground.png"
         },
         "sLg/": function (e, a, t) {
             e.exports = t.p + "static/mindstorms-6ebab0b6e298148f5ab964dd2dc867f2.jpg"
         },
         t5jt: function (e, a, t) {
-            e.exports = t.p + "static/44-d207d6e18854d1b6a19685ca3ee5055d.png"
+            e.exports = t.p + "static/tractatuslogico-philosophicus.png"
         },
         tQ7i: function (e, a, t) {
-            e.exports = t.p + "static/21-b0450a68d17ec67a8dca62aa8b3c5051.png"
+            e.exports = t.p + "static/thecorrections.png"
         },
         uW2Z: function (e, a, t) {
-            e.exports = t.p + "static/20-cf2a78535929aad91e57124d7b350902.png"
+            e.exports = t.p + "static/theterminalbeach.png"
         },
         uznA: function (e, a, t) {
-            e.exports = t.p + "static/36-86fd4de8d033fbf1687c17358fc236df.png"
+            e.exports = t.p + "static/doandroidsdreamofelectricsheep.png"
         },
         yHTZ: function (e, a, t) {
-            e.exports = t.p + "static/28-b72382c1ab9e7a0882a5a515d593ce8d.png"
+            e.exports = t.p + "static/tremorofintent.png"
         },
         zjTt: function (e, a, t) { }
     }
