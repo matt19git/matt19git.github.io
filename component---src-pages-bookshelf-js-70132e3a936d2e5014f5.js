@@ -97,6 +97,9 @@
         UDTW: function (e, a, t) {
             e.exports = t.p + "static/thedeathofivanilych.png"
         },
+        UDTW2: function (e, a, t) {
+            e.exports = t.p + "static/harmonica.png"
+        },
         UXb8: function (e, a, t) {
             "use strict";
             t.r(a),
@@ -225,6 +228,8 @@
                 sa = t.n(oa),
                 ra = t("UDTW"),
                 ia = t.n(ra),
+                ra2 = t("UDTW2"),
+                ia2 = t.n(ra2),
                 ca = t("dpWB"),
                 la = t.n(ca),
                 ma = t("/CrK"),
@@ -290,6 +295,7 @@
                     n[na.a] = "The Castle, Franz Kafka",
                     n[sa.a] = "Soft Corruptor, Everest Pipkin",
                     n[ia.a] = "Ficciones, Jorge Luis Borges",
+                    n[ia2.a] = "Harmonica",
                     n[la.a] = "Feeling Great About My Butt, Kawandeep Virdee",
                     n[da.a] = "Waiting for Godot, Samuel Beckett",
                     n[ha.a] = "Parable of the Sower, Octavia Butler",
@@ -786,11 +792,11 @@
                     }, e), s.a.createElement("rect", {
                         onMouseEnter: e.onMouseEnter,
                         onMouseLeave: e.onMouseLeave,
-                        x: 350,
-                        y: 500,
-                        width: 1000,
-                        height: 700,
-                        id: Ea.a
+                        x: 1000,
+                        y: 400,
+                        width: 450,
+                        height: 200,
+                        id: ia2.a
                     }))
                 };
 
@@ -977,6 +983,11 @@
 
                         )
                     ),
+                    s.a.createElement("img", {
+                        id: "overlay-img2",
+                        src: null == c ? void 0 : c.url,
+                        style: L
+                    }),
 
                     s.a.createElement("img", {
                         src: i2.a
@@ -1050,7 +1061,7 @@
                                 color: "#333", // Text color
                                 fontSize: "8px" // Adjust font size as needed
                             }
-                        }, "(interact with the books and chessboard)"),
+                        }, "(interact with books, chessboard, harmonica)"),
                         s.a.createElement("p", {
                             style: {
                                 marginTop: "20px", // Adjust margin as needed
