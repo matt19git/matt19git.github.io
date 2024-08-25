@@ -1061,7 +1061,7 @@
                                 color: "#333", // Text color
                                 fontSize: "8px" // Adjust font size as needed
                             }
-                        }, "(interact with books, chessboard, harmonica)"),
+                        }, "(interact with books, chessboard, harmonica, music)"),
                         s.a.createElement("p", {
                             style: {
                                 marginTop: "20px", // Adjust margin as needed
