@@ -908,7 +908,7 @@
                         style: {}
                     },
                         s.a.createElement("img", {
-                            src: "portugal.png",
+                            src: "static/portugal.png",
                             style: { width: "100%", height: "100%" }
                         }))
 
@@ -919,7 +919,7 @@
                         style: {}
                     },
                         s.a.createElement("img", {
-                            src: "portugal2.png",
+                            src: "static/portugal2.png",
                             style: { width: "100%", height: "100%" }
                         }))
                     ,
@@ -929,7 +929,7 @@
                         style: {}
                     },
                         s.a.createElement("img", {
-                            src: "nice.png",
+                            src: "static/nice.png",
                             style: { width: "100%", height: "100%" }
                         }))
                     ,
@@ -939,7 +939,7 @@
                         style: {}
                     },
                         s.a.createElement("img", {
-                            src: "switzerland.png",
+                            src: "static/switzerland.png",
                             style: { width: "100%", height: "100%" }
                         }))
                     ,
@@ -949,7 +949,7 @@
                         style: {}
                     },
                         s.a.createElement("img", {
-                            src: "skydiving.png",
+                            src: "static/skydiving.png",
                             style: { width: "100%", height: "100%" }
                         }))
                     ,
@@ -959,7 +959,7 @@
                         style: {}
                     },
                         s.a.createElement("img", {
-                            src: "tennis.png",
+                            src: "static/tennis.png",
                             style: { width: "100%", height: "100%" }
                         }))
                     ,
@@ -969,7 +969,7 @@
                         style: {}
                     },
                         s.a.createElement("img", {
-                            src: "bike.png",
+                            src: "static/bike.png",
                             style: { width: "100%", height: "100%" }
                         }))
                 ),
@@ -1114,7 +1114,7 @@
             e.exports = t.p + "static/thecatcherintherye.png"
         },
         edUf: function (e, a, t) {
-            e.exports = t.p + "shelteringskycover.png"
+            e.exports = t.p + "static/shelteringskycover.png"
         },
         gc8F: function (e, a, t) {
             e.exports = t.p + "static/theidiot.png"
